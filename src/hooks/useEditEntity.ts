@@ -48,11 +48,11 @@ export function useEditEntity(
   const handleSave = useCallback(
     (textFields: TextFields) => {
       setEntities((p) =>
-        p.map((e) => {
-          if (e.id !== textFields.id) return e;
+        p.map((entity) => {
+          if (entity.id !== textFields.id) return entity;
 
           return {
-            ...e,
+            ...entity,
             ...Object.fromEntries(textFields.entries),
           };
         })

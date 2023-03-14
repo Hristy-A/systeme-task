@@ -8,9 +8,9 @@ type EntityTypeSelectProps = {
   setEntityType: React.Dispatch<React.SetStateAction<EntityType>>;
 };
 
-const options: Option[] = Object.values(EntityType).map((e) => ({
-  title: e,
-  value: e,
+const options: Option[] = Object.values(EntityType).map((entityName) => ({
+  title: entityName,
+  value: entityName,
 }));
 
 const EntityTypeSelect = ({
