@@ -1,0 +1,14 @@
+.button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-weight: normal;
+  padding: 6px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button_disabled {
+  background: var(--primary-disabled);
+  cursor: default;
+}

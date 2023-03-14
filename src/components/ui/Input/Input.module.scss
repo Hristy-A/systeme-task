@@ -1,0 +1,23 @@
+.searchInput {
+  border: 1px solid #eef0f3;
+  transition: border .2s;
+  border-radius: 6px;
+  padding: 6px 15px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: url('../../../');
+  }
+
+  &:hover {
+    border: 1px solid #92c6fb;
+    outline: none;
+  }
+
+  &:focus {
+    border: 1px solid #92c6fb;
+    outline: none;
+  }
+
+}

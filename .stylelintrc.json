@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "selector-class-pattern": "^_?[A-Za-z-_]+$",
+    "scss/at-import-partial-extension": null,
+    "color-function-notation": null
+  }
+}

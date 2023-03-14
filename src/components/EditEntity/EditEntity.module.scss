@@ -1,0 +1,17 @@
+.editEntity {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  height: 100%;
+}
+
+.propertyName {
+  font-size: .8rem;
+  margin-bottom: 8px;
+}
+
+.saveSection {
+  justify-self: end;
+  display: flex;
+  justify-content: center;
+}

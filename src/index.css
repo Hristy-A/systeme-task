@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #192b5f;
+  --color-background: #f2f4f8;
+  --color-white: #fafbfc;
+  --primary-disabled: #9ea9b2;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: var(--color-primary)
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: sans-serif;
+  padding-top: 10px;
+}
