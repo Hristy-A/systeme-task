@@ -20,21 +20,21 @@ export function useEditEntity(
       case EntityType.Product:
         setEditedEntity({
           id,
-          entries: [['Name', entity.name]],
+          entries: [['name', entity.name]],
         });
         break;
 
       case EntityType.Page:
         setEditedEntity({
           id,
-          entries: [['Title', entity.title]],
+          entries: [['title', entity.title]],
         });
         break;
 
       case EntityType.PricePlan:
         setEditedEntity({
           id,
-          entries: [['Description', entity.description]],
+          entries: [['description', entity.description]],
         });
         break;
 
