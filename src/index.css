@@ -1,8 +1,10 @@
 :root {
   --color-primary: #192b5f;
+  --color-primary-disabled: #9ea9b2;
   --color-background: #f2f4f8;
   --color-white: #fafbfc;
-  --primary-disabled: #9ea9b2;
+  --color-border: #eef0f3;
+  --color-border-active: #92c6fb;
 }
 
 *, *::before, *::after {
