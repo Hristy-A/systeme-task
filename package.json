@@ -44,9 +44,9 @@
     }
   },
   "scripts": {
-    "dev": "react-scripts start",
     "build": "react-scripts build",
     "start": "npm run build && cd ./build && npx serve -L",
+    "dev": "react-scripts start",
     "lint:css": "npx stylelint \"**/*.scss\" && echo no issues"
   },
   "browserslist": {
